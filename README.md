@@ -37,6 +37,7 @@ To use this SQL query handler, follow these steps:
    - `loadmany`: Load multiple records from the database.
    - `save`: Save a new record to the database.
    - `delete`: Delete a record from the database.
+4. When calling these methods use await
 
 ### Example:
 
