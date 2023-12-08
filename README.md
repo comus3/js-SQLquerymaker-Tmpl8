@@ -65,3 +65,7 @@ Feel free to contribute by submitting issues or pull requests. Any feedback or i
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+---
+
+**Note:** This code is almost entirely copied from [Khoi Nguyen](https://github.com/khoi-nguyen/LW3L-orm/blob/main/models/Model.js), and I'm giving him all the credits for the original implementation.
