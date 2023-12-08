@@ -1,3 +1,5 @@
+import bluebird from 'bluebird';
+
 const fs = require('fs');
 
 // Read the content of pwd.txt synchronously
