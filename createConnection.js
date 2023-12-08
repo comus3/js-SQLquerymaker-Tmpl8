@@ -10,7 +10,8 @@ try {
         host : 'localhost',
         user : 'root',
         password : passwordContent,
-        database : 'WRITE YOUR DATA BASE NAME HERE'
+        database : 'WRITE YOUR DATA BASE NAME HERE',
+        Promise: bluebird
     });
 
     connection.connect(function(error){if (error) console.log(error);});
