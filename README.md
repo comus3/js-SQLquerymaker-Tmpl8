@@ -41,21 +41,15 @@ To use this SQL query handler, follow these steps:
 ### Example:
 
 ```javascript
-const { Model } = require('./model');
+import Model from './Model.js';
 
-class User extends Model {
-  constructor() {
-    super('users'); // 'users' should be the name of your table
-  }
+export default class Task extends Model {
 
-  // Additional methods or properties specific to the 'users' table can be added here.
+  static table = "schema.tasks";
+  static primary = ["id"];
+
+  // Additional methods or properties specific to the 'schema.tasks' table can be added here.
 }
-
-// Usage
-const user = new User();
-user.load(1); // Load user with ID 1
-user.update(1, { name: 'John Doe' }); // Update user with ID 1
-// ... and so on
 ```
 
 ## Contributions
