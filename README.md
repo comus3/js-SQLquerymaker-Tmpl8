@@ -14,13 +14,6 @@ To integrate this project into your repository, follow these steps:
    git merge --allow-unrelated-histories template/main
    ```
 
-2. Update the `createConnection.js` file:
-
-   Change the database name to match your specific database in the `createConnection.js` file.
-
-3. Set the SQL password:
-
-   Open the `pwd.txt` file and input your SQL password.
 
 ## Usage
 
